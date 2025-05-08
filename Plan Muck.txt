@@ -1,0 +1,31 @@
+The page size should fit to a computer screen and as optional you can make a mobile version
+    - There should be a nav with the preferable colour "3EBCF2"
+        - The should be a cropped image of the title Muck(probably an downloaded image) in my folder for my website
+            - The image should be on the top left almost blending with the nav colour
+        - There should be a button to the right of the nav that when clicked will send the user down the page to the comment section(make more for other subtitles)
+            - Use javascript
+    - The sides of the website should be green walls "4EA700"
+        - Optional make the walls have gradient
+    - Place the big Muck image on the top center(under nav)
+    - Place the title "Tutorial: Starter" right under the big Muck image and center it
+        - bold font
+    - Place an intro under the title and center it
+    - Place the statistics and first step under intro
+    - Place the chest step info under statistics and make the length shorter to the left so there is space to place an image of chests
+        - Place an image of 4 chests on the right side of the page
+        -> do the positioning again but for the village step and tool step
+    - Place the step for crafting under tools
+    - Place the step for best food under crafting
+    - Place seed tips under best food
+    - Make a program that generates comments after letting the user write and press enter(or button)
+        - This could be done by using define? And list/dictionary(or similar) 
+            - Make set variables for positioning so then new comments go above old ones
+            - Make the box where the user’s comment goes in(with text wrapping), for example:
+
+            ------------------------------------------------------------------
+            |  (image) (User name) -                                         |  (there will be up arrow and down arrow)
+            |       texttexttexttexttexttexttexttexttexttexttexttexttexttext | (the rest of the text is sent under when there is no more space in that line)
+            |       texttexttexttexttexttexttexttexttexttexttexttexttexttext |
+            ------------------------------------------------------------------
+
+            - Make the “comment” get deleted after 1 hour except one comment(from me) that tells us how to comment

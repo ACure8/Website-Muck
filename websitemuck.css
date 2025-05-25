@@ -1,16 +1,8 @@
 
-header {grid-area: header;}
-nav {grid-area: nav;}
-main {grid-area: main;}
-aside {grid-area: aside;}
-
 .grid-container {
     display: grid;
-    grid-template-areas: 
-    'aside header header header aside'
-    'aside main main main aside';
-    gap: 0px;
-    padding: 0px;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto; 
 }
 
 nav {
@@ -26,14 +18,16 @@ nav {
     max-width: none;
     margin: 0;
 }
+
 body {
     overflow-x: hidden;
 }
+
 nav img {
     width: 8%;
-    position: relative;
-    left: 5%;
-    margin-right: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 nav a {

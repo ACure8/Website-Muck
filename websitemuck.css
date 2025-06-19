@@ -19,19 +19,6 @@
     font-family: "Exo 2", sans-serif;
     font-weight: 500;
     font-style: normal;
-    opacity: 1;
-    transition: 500ms;
-    transform: translateY(0);
-    transform-origin: top;
-}
-
-html.is-animating .main {
-    opacity: 0;
-    transform: translateY(100%);
-}
-
-html.is-leaving .main {
-    opacity: 0;
 }
 
 .edge {
@@ -72,3 +59,4 @@ nav a {
     font-family: "Exo 2", sans-serif;
     font-weight: 550;
 }
+

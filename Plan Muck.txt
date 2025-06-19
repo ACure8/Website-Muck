@@ -16,3 +16,5 @@ The page size should fit to a computer screen and as optional you can make a mob
     - Place the step for crafting under tools
     - Place the step for best food under crafting
     - Place seed tips under best food
+    - for all the text change the font and size of them and set a text border limit
+    - use java to make a transition scene for the links clicked

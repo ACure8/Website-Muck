@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
 .grid-container {
-    display: grid;
+    display: flex;
     grid-template-columns: 7% auto 7%;
 }
 
 .grid-container > div {
     color: #000;
+    flex: 1;
+    max-width: 100%;
+    overflow-wrap: break-word;
     padding: 10px 30px 0px 30px;
-    padding-bottom: 300%;
-    font-size: 130%;
+    padding-bottom: 30%;
     text-align: center;
 
 }
@@ -19,6 +21,7 @@
     font-family: "Exo 2", sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 100%;
 }
 
 .edge {
